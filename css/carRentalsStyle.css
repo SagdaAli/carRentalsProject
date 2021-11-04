@@ -1,0 +1,360 @@
+html{
+   font-size: 16px;  
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+header{
+    background-color: #000;
+    background-image: url(../Images/header-bg.jpg);
+    background-repeat: no-repeat;
+    height: 730px;
+    position: relative;
+}
+.headeropactiy{
+    width: 100%;
+    height: 730px;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo{
+    height: 30px;
+    background-image: url(../Images/logo.png);
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+.links {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.links a{
+    margin: 10px;
+    padding: 7px;
+    font-size: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    transition: .4s ease all;
+}
+.links a:hover{
+    background-color: #fcbe03;
+    
+}
+header article{
+    float: left;
+}
+#banner1 article{
+    width: 1000px;
+    margin-left: 60px;
+    margin-top: 150px;
+    color: white;
+    float: left;
+}
+#banner1 article span{
+    font-size: 2rem;
+    word-spacing:6px;
+}
+#banner1 article h1{
+    font-size: 4rem;
+}
+#banner1 article p{
+    font-size: 2rem;
+}
+#banner1 span,#banner1 h1,#banner1 a{
+    text-transform: uppercase;
+}
+#banner1 a{
+    display: inline-block;
+    width: 280px;
+    height: 45px;
+    background-color: #fcbe03;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding-top: 20px;
+}
+#banner1 aside{
+    border: thin solid #a6a49f;
+    width: 550px;
+    height: 610px; 
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0,0.1);
+}
+#banner1 aside .asideform{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#banner1 aside h2{
+    color: white;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+.asidetable{
+   width: 450px;
+}
+.asidetable input{
+    width: 403px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.smallinputs input{
+    width: 190px;
+}
+.confirmbutton{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fcbe03;
+    color: white;
+}
+.twolines{
+   text-align: center;
+   font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.twolines p{
+   font-size: 1rem;
+   color: #85837f;  
+}
+#cards6{
+  margin-bottom: 100px;  
+}
+.cards6float{
+    width: 1400px;
+    margin-left: 180px;
+}
+.cards6float div{
+    width: 400px;
+    height: 200px;
+    background-color: #e9f0f2;
+    float: left;
+    margin: 15px 15px;
+    border-radius: 12px;
+    padding-top: 60px;
+    padding-left: 30px;
+   
+}
+.cards6float div span{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-left: 7px;
+}
+.cards6float div p{
+    text-align: justify;
+    color: #85837f; 
+    margin-right: 50px;
+}
+#about{
+    height: 650px;
+    margin-bottom: 80px;
+}
+#about aside{
+    float: left;
+    margin-left: 60px;
+}
+#about article{
+    float: right;
+    width: 500px;
+    height: 325px;
+    margin-right: 120px;
+    margin-top: 150px;
+}
+#about article h2{
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    margin-bottom:20px; 
+}
+#about article h6{
+    font-size: 1rem;
+    margin-bottom:20px; 
+}
+#about article p{
+    font-size: .9rem;
+    color: #85837f;
+    margin-bottom:20px;
+    line-height: 20px;
+}
+#about article a,.blacklink{
+    display: inline-block;
+    width: 140px;
+    height:15px;
+    color: #fff;
+    background-color: #fcbe03;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    padding:20px 50px;
+}
+#atricleThenCar{
+    margin-bottom: 60px;
+}
+#atricleThenCar article{
+  
+   width: 700px;
+    height: 300px;
+    float: left;
+    margin-left: 200px;
+}
+#atricleThenCar aside{
+    float: right;
+    margin-right: 150px;
+}
+#atricleThenCar article h3{
+    float: left;
+    font-size: 1.3rem;
+}
+#atricleThenCar article span{
+    float: right;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color:#fcbe03; 
+}
+#atricleThenCar article p{
+  color:#85837f;  
+}
+#atricleThenCar article .blacklink{
+    background-color: #000;
+    width: 180px;
+    margin-bottom: 0px;
+}
+#callaction{
+    height: 410px;
+    background: linear-gradient(rgba(44, 61, 89,.5),rgba(44, 61, 89,.5)),
+    url(../images/callaction-bg.jpg); 
+    margin-bottom: 70px;
+    color: #fff;
+}
+#callaction h1{
+   padding-top: 100px;
+  
+}
+#callaction p{
+    color: #fff;
+}
+.reachteamlink{
+    width: 300px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 15px;
+    border: thin solid #fcbe03;
+}
+.reachteamlink a{
+    color: #fcbe03;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#cards4 .cards4float{
+    width: 1280px;
+    height: 405px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    padding-top: 40px;
+   
+}
+#cards4 .card1{
+    width: 263px;
+    height: 400px;
+    float: left;
+    margin: 0 20px;
+    margin-left: 30px;
+}
+#cards4 .card1 aside{
+    background-color: #000;
+    color:#85837f;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-top: 8px;
+    padding-top: 8px;
+}
+#cards4 .card1 h3{
+    font-size: 1.4rem;
+}
+#cards4 .card1 p{
+   color:#85837f;
+}
+#cards4 .card1 .likes{
+    float: left;
+    color:#85837f;
+}
+#cards4 .card1 .comments{
+    float: right;
+    color:#85837f;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+}
+.footerlist{
+    width: 1600px;
+    height: 400px;
+    padding-left: 50px;
+   
+}
+.footerlist1,.footerlist2{
+    
+    width: 200px;
+    height: 220px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.footerlist2{
+    width: 450px;
+    height: 200px;
+}
+.footerlist1 h3,.footerlist2 h3{
+    margin-left: 40px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footerlist1 ul,.footerlist2 ul{
+    list-style-type: none;
+    color: #85837f;
+}
+.footerlist1 li,.footerlist2 li{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.footerlist2 .emailinput{
+    width: 300px;
+    height: 40px;
+    float: left;
+    padding-left: 8px;
+}
+.footerlist2 .emailbutton{
+    width: 80px;
+    height: 45px;
+    float: left;
+    background-color: #fcbe03;
+    font-size: 2rem;
+}
+footer>span{
+    color: #85837f;
+    margin-left: 650px;
+    font-size: 1.2rem;
+}
